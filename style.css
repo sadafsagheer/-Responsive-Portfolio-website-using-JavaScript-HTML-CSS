@@ -1,0 +1,299 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Source+Code+Pro:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+.sidebar{
+    padding: absolute;
+    background-color: rgb(56, 54, 54);
+    
+    font-family:  'Roboto', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+
+    padding: 45px;
+
+}
+.sidebar nav li{
+
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+   
+}
+
+.sidebar nav li a{
+
+    text-decoration: none;
+    color: black;
+   
+}
+
+.main{
+    /*background-color: chartreuse;*/
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    /*background-color: palevioletred;*/
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello{
+    font-size: 3em;
+
+}
+
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family:  'Roboto', sans-serif;
+}
+.about{
+    font-size: 2.5em;
+}
+
+.moreabout{
+    font-size: 2.2em;
+    margin-top: 23px;
+    font-family: 'Robot', sans-serif ;
+}
+
+.buttons{
+    margin-top: 34px;
+    font-size: 16px;
+}
+
+.btn{
+
+    padding:  9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+
+.btn-sm{
+
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+.blogitem{
+    margin: 20px;
+    font-family:  'Roboto', sans-serif;
+    
+}
+
+.blogcontainer{
+    margin: 88px 88px;
+}
+h1{
+    font-family:  'Roboto', sans-serif;
+    margin: 23px;
+    
+}
+
+
+p{
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.intro{
+    margin: 88px 88px;
+}
+
+.intro h2{
+    font-family:  'Roboto', sans-serif;
+    margin: 12px;
+
+
+}
+
+.intro p{
+    font-family:  'Roboto', sans-serif;
+    margin: 12px;
+    font-family: 'Source Code Pro', monospace;
+
+
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+.skill{
+    width: 256px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+
+
+.hundered{
+
+    width: 265px;
+    background-color: crimson;
+
+}
+
+.fifty{
+    width: 125px;
+    background-color: cyan;
+}
+
+.t5{
+
+    width: 75px;
+    background-color: chartreuse;
+}
+
+.sidebarGo{
+    transform: translate(-443px , 0px);
+
+position: absolute;
+
+
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.cross{
+    margin-left: 175px ;
+    margin-top: 10px;
+}
+
+
+
+
+
+.btn:hover{
+    color: dodgerblue;
+    background-color: white;
+
+
+}
+
+
+
+
+.devPic img{
+    height: 58vh;
+}
+
+.contactform{
+    padding: 0 34px;
+    
+    font-family:  'Roboto', sans-serif;
+    margin: 88px 88px;
+
+}
+
+
+.contactform h1{
+
+    font-family: 'Source Code Pro', monospace;
+  /*  padding: 12px 0; */
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+   /* width: 26vw; */
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+.contactform form{
+    /* width: 26vw; */
+     
+     margin: 0 40px;
+     
+ }
+
+
+
+#emailHelp{
+    font-size: 12px;
+    color: blue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+.form-check{
+    flex-direction: row;
+
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+
+    
+}
+
+@media (max-width: 1615px) {
+    .buttons{
+        font-size: 6px;
+    }
+
+    .devInfo{
+        font-size: 10px;
+    }
+    
+   .devPic{
+       display: none;
+   }
+    
+    .intro, .blogcontainer, .contactform{
+        margin: 50px 8px;
+    }
+}
